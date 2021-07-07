@@ -1,0 +1,44 @@
+/** Preloader  */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #0b0c10;
+  background-image: url(../assets/preloader.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#preloader-none {
+  display: none;
+}
+
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 51%, #ffcc70 100%);
+  height: 100vh;
+}
+
+/** Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #66fcf1;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #45a29e;
+}

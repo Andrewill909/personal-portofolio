@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Titillium';
+        src: url(./fonts/TitilliumWeb-Regular.woff) format('woff');            
+      }
+}
+
+@tailwind utilities;
+

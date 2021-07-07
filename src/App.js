@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+//* React
+import * as React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+//* pages and components
+import Preloader from './components/Preloader';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+//* styling
+import './styles/tailwind.css';
+import './styles/custom.css';
 
 function App() {
+
+  let [load, setLoad] = React.useState(true);
+
+  React.useEffect(() => {
+    let load = setTimeout(() => {
+      setLoad(false);
+    }, 1500);
+
+    return () => {
+      clearTimeout(load);
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Preloader isLoad={load}/>
+        <div className="App" id={load ? "no-scroll" : "scroll"}>
+          <Navbar/>
+          <Switch>
+              <Route to="/" exact component={Home}/>
+          </Switch>
+        </div>
+    </Router>
   );
 }
 
