@@ -5,7 +5,7 @@ import HiMenuAlt3 from "@meronex/icons/hi/HiMenuAlt3";
 const Navbar = () => {
   return (
     <nav
-      className="flex justify-between items-center h-14 bg-black shadow-lg rounded-lg bg-opacity-5 backdrop-filter backdrop-blur-md
+      className="flex justify-between items-center h-14 shadow-md rounded-lg bg-opacity-10 backdrop-filter backdrop-blur-md
       fixed w-full font-sans text-cust-cyan border-0"
     >
       <Link to="/" className="pl-8 flex flex-row">

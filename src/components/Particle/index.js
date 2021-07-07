@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Particles from 'react-particles-js'
-import * as data from './particlesjs-config.json';
+// import * as data from './particlesjs-config.json';
 import * as data2 from './particlesjs-config2.json';
 
 const Particle = () => {
