@@ -1,31 +1,8 @@
-/** Preloader  */
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #0b0c10;
-  background-image: url(../assets/preloader.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#preloader-none {
-  display: none;
-}
-
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
-
-body {
+ body {
   background-color: #4158d0;
   background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 51%, #ffcc70 100%);
-  height: 100vh;
-}
+  height: 100vh; 
+} 
 
 /** Scrollbar */
 /* width */

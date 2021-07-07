@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Particles from 'react-particles-js'
 import * as data from './particlesjs-config.json';
+import * as data2 from './particlesjs-config2.json';
 
 const Particle = () => {
 
@@ -12,7 +13,7 @@ const Particle = () => {
       }
 
     return (
-        <Particles params={data.default} width="100%" height="100vh" style={style} />
+        <Particles params={data2.default} width="100%" height="100vh" style={style} />
     )
 }
 
