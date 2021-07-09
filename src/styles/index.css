@@ -2,12 +2,38 @@
 @tailwind components;
 
 @layer base {
-
-    @font-face {
-        font-family: 'Titillium';
-        src: url(./fonts/TitilliumWeb-Regular.woff) format('woff');            
-      }
+  @font-face {
+    font-family: "Titillium";
+    src: url(./fonts/TitilliumWeb-Regular.woff) format("woff");
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url(./fonts/Montserrat-Regular.woff) format("woff");
+  }
 }
 
 @tailwind utilities;
 
+@layer utilities {
+  @variants responsive {
+    .indent-sm {
+      text-indent: 2rem;
+    }
+    .indent-md {
+      text-indent: 3rem;
+    }
+    .indent-lg {
+      text-indent: 4rem;
+    }
+
+    .-indent-sm {
+      text-indent: -2rem;
+    }
+    .-indent-md {
+      text-indent: -3rem;
+    }
+    .-indent-lg {
+      text-indent: -4rem;
+    }
+  }
+}

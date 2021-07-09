@@ -6,15 +6,32 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        sans: ['Titillium', ...defaultTheme.fontFamily.sans]
+        sans: ['Titillium', ...defaultTheme.fontFamily.sans],
+        mont: ['Montserrat']
       },
       textColor: {
-        'cust-cyan':'#66FCF1'
-      }
+        'cust-cyan':'#66FCF1',
+        'cust-peach': '#FF616D',
+        'HTML':'#F16529',
+        'CSS': '#264de4',
+        'Javascript': '#F0DB4F',
+        'React': '#61DBFB',
+        'Node': '#3c873a',
+        'Git': '#F1502F',
+        'Java': '#f89820',
+        'MongoDB': '#3FA037',
+        'MySQL': '#00758F'
+      },
     },
+    textIndent: theme => theme('spacing'),
   },
   variants: {
-    extend: {},
+    extend: {
+      transform: ['hover', 'focus', 'group-hover'],    
+    },
+    textIndent: ['responsive'],
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-text-indent')(),
+  ],
 }

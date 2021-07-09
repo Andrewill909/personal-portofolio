@@ -1,39 +1,61 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
+//icon
 import HiMenuAlt3 from "@meronex/icons/hi/HiMenuAlt3";
+import AiOutlineHome from "@meronex/icons/ai/AiOutlineHome";
+import FdSocialSkillshare from '@meronex/icons/fd/FdSocialSkillshare';
+import AiOutlineFundProjectionScreen from "@meronex/icons/ai/AiOutlineFundProjectionScreen";
+import logo from '../../asset/logo3.png';
+//components
+import Container from "../Container";
 
 const Navbar = () => {
   return (
     <nav
-      className="flex justify-between items-center h-14 shadow-md rounded-lg bg-opacity-10 backdrop-filter backdrop-blur-md
-      fixed w-full font-sans text-cust-cyan border-0"
+      className="flex items-center bg-white h-14 shadow-md bg-opacity-10 backdrop-filter backdrop-blur-md
+      fixed w-full top-0 z-50 text-lg "
     >
-      <Link to="/" className="pl-8 flex flex-row">
-        <div className="h-10 w-10 self-center mr-2">
-          <img className="h-10 w-10 self-center" src="" alt="foto" />
-        </div>
-        <div className="self-center">
-          <h3  className="text-lg font-bold">
-            Andre William
-          </h3>
-        </div>
-      </Link>
+      <Container styling="flex justify-between items-center">
+        <Link to="/" className="px-4 md:pl-0 flex flex-row">
+          <div className="h-10 w-10 self-center mr-2">
+            <img className="h-10 w-10 self-center" src={logo} alt="logo" />
+          </div>
+          <div className="self-center">
+            <h3 className="text-2xl font-bold">AW</h3>
+          </div>
+        </Link>
 
-      <div className="px-4 cursor-pointer md:hidden">
-        <HiMenuAlt3 className="w-7 h-7 text-cust-cyan" />
-      </div>
+        <div className="px-4 cursor-pointer md:hidden">
+          <HiMenuAlt3 className="w-7 h-7" />
+        </div>
 
-      <div className="pr-8 md:block hidden">
-        <Link to="/" className="p-4">
-          Home
-        </Link>
-        <Link to="/" className="p-4">
-          Skills
-        </Link>
-        <Link to="/" className="p-4">
-          Project
-        </Link>
-      </div>
+        <div className="md:pr-0 md:flex hidden md:justify-between md:items-center">
+          <Link to="/" className="p-4">
+            <div className="flex justify-between items-center">
+              <div className="pb-1 pr-1">
+                <AiOutlineHome />
+              </div>
+              <div>Home</div>
+            </div>
+          </Link>
+          <Link to="/" className="p-4">
+            <div className="flex justify-between items-center">
+              <div className="pb-1 pr-1">
+                <FdSocialSkillshare />
+              </div>
+              <div>Skill</div>
+            </div>
+          </Link>
+          <Link to="/" className="p-4 pr-0">
+            <div className="flex justify-between items-center">
+              <div className="pb-1 pr-1">
+                <AiOutlineFundProjectionScreen />
+              </div>
+              <div>Project</div>
+            </div>
+          </Link>
+        </div>
+      </Container>
     </nav>
   );
 };
