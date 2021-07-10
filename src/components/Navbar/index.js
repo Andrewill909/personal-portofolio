@@ -21,7 +21,7 @@ const Navbar = () => {
             <img className="h-10 w-10 self-center" src={logo} alt="logo" />
           </div>
           <div className="self-center">
-            <h3 className="text-2xl font-bold">AW</h3>
+            <h3 className="text-2xl font-bold text-cust-cyan">AW</h3>
           </div>
         </Link>
 

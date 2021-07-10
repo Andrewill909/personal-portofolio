@@ -17,17 +17,17 @@ let skillset = [
 export default function Skill() {
   return (
     <>
-      <div className="bg-white bg-clip-padding shadow-lg rounded-3xl bg-opacity-10 border border-gray-200 backdrop-filter backdrop-blur-xl p-4 font-mont md:col-span-2 text-2xl md:text-3xl text-cust-cyan text-center" data-aos="fade-left">
+      <div className="bg-white bg-clip-padding shadow-lg rounded-3xl bg-opacity-10 border border-gray-200 backdrop-filter backdrop-blur-xl p-4  md:col-span-2 text-2xl md:text-3xl text-cust-cyan text-center font-sans" data-aos="zoom-in">
           Professional Skillset
       </div>
       <div className="grid-cols-1 md:grid-cols-2 md:col-span-2">
-        <div className="grid grid-cols-2 md:grid-cols-4 text-2xl md:text-3xl gap-4 p-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 text-xl md:text-2xl gap-4 p-3">
             {skillset.map((({name, icons}, idx) => {
                 return( 
                   <div data-aos="zoom-in" key={idx}>
                     <div key={idx} className="place-self-stretch border flex flex-col justify-between items-center
                     border-gray-200 bg-clip-padding bg-white shadow-lg rounded-3xl bg-opacity-10 backdrop-filter backdrop-blur-xl p-4
-                    transform hover:scale-105 hover:bg-opacity-40 transition duration-300 group"
+                    transform hover:scale-105 hover:bg-opacity-0 transition duration-300 group"
                     >
                         <div className={`mb-2 group-hover:text-${name}`}>{name}</div>
                         <div className={`text-3xl md:text-5xl group-hover:text-${name}`}>{icons}</div>

@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 function App() {
 
   React.useEffect(() => {
-    Aos.init({duration: 600});
+    Aos.init({duration: 1000});
     Aos.refresh();
   },[]);
 

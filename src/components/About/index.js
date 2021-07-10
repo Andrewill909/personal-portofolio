@@ -17,8 +17,7 @@ export default function About() {
       </div>
       <div className=" p-4 font-sans md:col-start-2 md:col-end-3 md:row-start-2 md:row-end-3 text-xl md:text-2xl text-justify flex flex-col justify-evenly text-pink-100">
         <p className="block leading-normal md:leading-loose indent-sm md:indent-md">
-          Whooops... before scrolling, please Let me to introduce myself first. My name is Andre William, i'am 20 years old and currently studying at Bina nusantara university - majoring in computer science. I fell in love with programming and have a big interest's on building a new Web based
-          application using modern technologies/web frameworks including ReactJS, NodeJS, NextJS, Laravel, and many more.
+          Hello there, my name is Andre William and I am 20 years old. While studying in my 4th semester in the Computer Science field, I have done many projects in web development using modern web technologies/languages and frameworks such as Javascript, ReactJS, NodeJS, Laravel, and many more. Besides web applications, I'm interested in artificial intelligence and database management too. My motto is always learn from the best practices and write clean codes.
         </p>
       </div>
     </>
