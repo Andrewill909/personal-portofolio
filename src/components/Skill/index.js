@@ -17,7 +17,7 @@ let skillset = [
 export default function Skill() {
   return (
     <>
-      <div className="bg-white bg-clip-padding shadow-lg rounded-3xl bg-opacity-10 border border-gray-200 backdrop-filter backdrop-blur-xl p-4  md:col-span-2 text-2xl md:text-3xl text-cust-cyan text-center font-sans" data-aos="zoom-in">
+      <div className="bg-purple-800 bg-clip-padding shadow-lg rounded-3xl bg-opacity-10 border border-gray-200 backdrop-filter backdrop-blur-xl p-4  md:col-span-2 text-2xl md:text-3xl text-cust-cyan text-center font-sans" data-aos="zoom-in">
           Professional Skillset
       </div>
       <div className="grid-cols-1 md:grid-cols-2 md:col-span-2">
