@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 //icon
 import HiMenuAlt3 from "@meronex/icons/hi/HiMenuAlt3";
 import AiOutlineHome from "@meronex/icons/ai/AiOutlineHome";
@@ -8,12 +8,15 @@ import AiOutlineFundProjectionScreen from "@meronex/icons/ai/AiOutlineFundProjec
 import logo from '../../asset/logo3.png';
 //components
 import Container from "../Container";
+//smooth scroll
+import {Link} from 'react-scroll';
 
-const Navbar = () => {
+const Navbar = ({isBlurred}) => {
+
   return (
     <nav
-      className="flex items-center bg-white h-14 shadow-md bg-opacity-10 backdrop-filter backdrop-blur-md
-      fixed w-full top-0 z-50 text-lg "
+      className={`flex items-center h-14 ${isBlurred ? 'bg-white shadow-md bg-opacity-10 backdrop-filter backdrop-blur-md' : '' } 
+      fixed w-full top-0 z-50 text-lg`}
     >
       <Container styling="flex justify-between items-center">
         <Link to="/" className="px-4 md:pl-0 flex flex-row">
@@ -38,7 +41,7 @@ const Navbar = () => {
               <div>Home</div>
             </div>
           </Link>
-          <Link to="/" className="p-4">
+          <Link to="skill" smooth={true} className="p-4">
             <div className="flex justify-between items-center">
               <div className="pb-1 pr-1">
                 <FdSocialSkillshare />

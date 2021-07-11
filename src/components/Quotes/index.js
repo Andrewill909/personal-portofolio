@@ -9,7 +9,7 @@ export default function Quotes(){
     React.useEffect(() => {
         let fetchQuote = async () => {
             let {data}= await getQuote();
-            console.log(data)
+            // console.log(data)
             setQuote(data.quote);
             setAuthor(data.author);
         }

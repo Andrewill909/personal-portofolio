@@ -22,6 +22,11 @@ module.exports = {
         'MongoDB': '#3FA037',
         'MySQL': '#00758F'
       },
+      gradientColorStops: theme => ({
+        ...theme('colors'),
+        'start': '#7400b8',
+        'end': '#80ffdb'
+       })
     },
     textIndent: theme => theme('spacing'),
   },

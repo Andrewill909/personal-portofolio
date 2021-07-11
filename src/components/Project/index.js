@@ -31,7 +31,7 @@ const project = [
     img: 'tumpukan.png',
     url: 'https://github.com/Andrewill909/Discussion-Forum-Tumpukan-luber',
     tags: ['Laravel', 'PHP', 'MySQL'],
-    desc: `This project is made as final project for Sanbercode lavarel bootcamp on july 2020. My teams consist of 3 people (each one has specific role). My role is creating authentification, frontend, and replying thread feature.`
+    desc: `This project is made as final project for Sanbercode lavarel bootcamp on july 2020. My teams consist of 3 people (each one has specific role). My role is creating authentication, frontend, and replying thread feature.`
   }
 
 ]
@@ -47,7 +47,7 @@ export default function Project() {
         {project.map((itm,idx) => {
           return (
         <div key={idx} className="max-w-sm rounded-3xl backdrop-filter backdrop-blur-xl bg-opacity-10 bg-white overflow-hidden shadow-lg
-            place-self-center border border-gray-200">
+            place-self-center border border-gray-200" data-aos="zoom-in">
           <div className="image relative">
             <img className="w-full border-bottom border-gray-200 block" src={`projects/${itm.img}`} alt="Mountain" />
             <a className="overlay absolute bg-purple-900 z-50 w-full h-full top-0 left-0 opacity-0 hover:opacity-80 transition duration-500

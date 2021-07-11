@@ -7,6 +7,7 @@ import Quotes from '../Quotes';
 import svg from '../../asset/jumbo.svg';
 
 export default function Jumbotron(){
+
     return(
         <div className="jumbotron border border-gray-200 bg-clip-padding bg-white shadow-lg rounded-3xl bg-opacity-10 backdrop-filter backdrop-blur-xl p-4 font-mont md:col-span-2 grid grid-cols-1 md:grid-cols-2" data-aos="zoom-in">
         <div className="typer flex flex-col justify-center items-center text-2xl md:text-4xl font-semibold">
