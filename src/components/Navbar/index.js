@@ -5,7 +5,7 @@ import HiMenuAlt3 from "@meronex/icons/hi/HiMenuAlt3";
 import AiOutlineHome from "@meronex/icons/ai/AiOutlineHome";
 import FdSocialSkillshare from '@meronex/icons/fd/FdSocialSkillshare';
 import AiOutlineFundProjectionScreen from "@meronex/icons/ai/AiOutlineFundProjectionScreen";
-import logo from '../../asset/logo3.png';
+import logo from '../../asset/logo.png';
 //components
 import Container from "../Container";
 //smooth scroll
@@ -15,17 +15,14 @@ const Navbar = ({isBlurred}) => {
 
   return (
     <nav
-      className={`flex items-center h-14 ${isBlurred ? 'bg-white shadow-md bg-opacity-10 backdrop-filter backdrop-blur-md' : '' } 
+       className={`flex items-center h-14 transition duration-500 ${isBlurred ? 'bg-white shadow-md bg-opacity-10 backdrop-filter backdrop-blur-md' : '' } 
       fixed w-full top-0 z-50 text-lg`}
     >
       <Container styling="flex justify-between items-center">
-        <Link to="/" className="px-4 md:pl-0 flex flex-row">
+        <Link to="jumbo" className="px-4 md:pl-0 flex flex-row" smooth={true} spy={true} offset={-100}>
           <div className="h-10 w-10 self-center mr-2">
             <img className="h-10 w-10 self-center" src={logo} alt="logo" />
-          </div>
-          <div className="self-center">
-            <h3 className="text-2xl font-bold text-cust-cyan">AW</h3>
-          </div>
+          </div>       
         </Link>
 
         <div className="px-4 cursor-pointer md:hidden">
@@ -33,7 +30,7 @@ const Navbar = ({isBlurred}) => {
         </div>
 
         <div className="md:pr-0 md:flex hidden md:justify-between md:items-center">
-          <Link to="/" className="p-4">
+          <Link to="jumbo" className="p-4 cursor-pointer" activeClass="text-cust-cyan" smooth={true} spy={true} offset={-100}>
             <div className="flex justify-between items-center">
               <div className="pb-1 pr-1">
                 <AiOutlineHome />
@@ -41,7 +38,7 @@ const Navbar = ({isBlurred}) => {
               <div>Home</div>
             </div>
           </Link>
-          <Link to="skill" smooth={true} className="p-4">
+          <Link to="skill" activeClass="text-cust-cyan" smooth={true} spy={true} offset={-70} className="p-4 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="pb-1 pr-1">
                 <FdSocialSkillshare />
@@ -49,7 +46,7 @@ const Navbar = ({isBlurred}) => {
               <div>Skill</div>
             </div>
           </Link>
-          <Link to="/" className="p-4 pr-0">
+          <Link to="project" activeClass="text-cust-cyan" smooth={true} spy={true} offset={-70} className="p-4 pr-0 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="pb-1 pr-1">
                 <AiOutlineFundProjectionScreen />

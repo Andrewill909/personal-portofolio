@@ -38,7 +38,7 @@ const project = [
 
 export default function Project() {
   return (
-    <div className="bg-[#fd2e73] bg-clip-padding shadow-lg rounded-3xl bg-opacity-60 border border-grey-200 backdrop-filter backdrop-blur-xl p-4 font-mont md:col-span-2 text-2xl md:text-3xl text-cust-cyan flex flex-col">
+    <div id="project" className="bg-clip-padding shadow-lg rounded-3xl bg-opacity-60 border border-grey-200 backdrop-filter backdrop-blur-xl p-4 font-mont md:col-span-2 text-2xl md:text-3xl text-cust-cyan flex flex-col">
       <div className="text-center p-10 font-sans font-black">
         Projects and Learning
       </div>
@@ -57,7 +57,7 @@ export default function Project() {
               </div>
             </a>
           </div>
-          <div className="px-6 py-4">
+          <div className="px-6 py-4 overflow-scroll h-60">
             <div className="font-bold text-xl mb-2">{itm.name}</div>
             <p className="text-pink-100 text-base indent-sm text-justify">{itm.desc}</p>
           </div>

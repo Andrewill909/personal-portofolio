@@ -34,7 +34,7 @@ function App() {
 
   return (
     <Router>
-        <div className="font-sans">
+        <div className="font-sans" id="home">
           <Navbar isBlurred={isBlurred}/>
           <Switch>
               <Route to="/" exact component={Home}/>

@@ -16,17 +16,20 @@ module.exports = {
         'CSS': '#264de4',
         'Javascript': '#F0DB4F',
         'React': '#61DBFB',
-        'Node': '#3c873a',
+        'Node': '#548a53',
         'Git': '#F1502F',
-        'Java': '#f89820',
-        'MongoDB': '#3FA037',
+        'Java': '#f7b159',
+        'MongoDB': '#5f9c5a',
         'MySQL': '#00758F'
       },
       gradientColorStops: theme => ({
         ...theme('colors'),
         'start': '#7400b8',
         'end': '#80ffdb'
-       })
+       }),
+       backgroundColor: {
+         'footer-purple': '#B721FF'
+       }
     },
     textIndent: theme => theme('spacing'),
   },

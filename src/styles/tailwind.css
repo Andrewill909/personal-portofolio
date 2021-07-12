@@ -2531,6 +2531,11 @@ video {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.bg-footer-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
@@ -2947,6 +2952,11 @@ video {
 .group:hover .group-hover\:bg-pink-900 {
   --tw-bg-opacity: 1;
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-footer-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-transparent:focus-within {
@@ -3367,6 +3377,11 @@ video {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-footer-purple:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -3785,6 +3800,11 @@ video {
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
 }
 
+.hover\:bg-footer-purple:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -4201,6 +4221,11 @@ video {
 .focus\:bg-pink-900:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+}
+
+.focus\:bg-footer-purple:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
 }
 
 .bg-none {
@@ -24755,7 +24780,7 @@ video {
 
 .text-Node {
   --tw-text-opacity: 1;
-  color: rgba(60, 135, 58, var(--tw-text-opacity));
+  color: rgba(84, 138, 83, var(--tw-text-opacity));
 }
 
 .text-Git {
@@ -24765,12 +24790,12 @@ video {
 
 .text-Java {
   --tw-text-opacity: 1;
-  color: rgba(248, 152, 32, var(--tw-text-opacity));
+  color: rgba(247, 177, 89, var(--tw-text-opacity));
 }
 
 .text-MongoDB {
   --tw-text-opacity: 1;
-  color: rgba(63, 160, 55, var(--tw-text-opacity));
+  color: rgba(95, 156, 90, var(--tw-text-opacity));
 }
 
 .text-MySQL {
@@ -25228,7 +25253,7 @@ video {
 
 .group:hover .group-hover\:text-Node {
   --tw-text-opacity: 1;
-  color: rgba(60, 135, 58, var(--tw-text-opacity));
+  color: rgba(84, 138, 83, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-Git {
@@ -25238,12 +25263,12 @@ video {
 
 .group:hover .group-hover\:text-Java {
   --tw-text-opacity: 1;
-  color: rgba(248, 152, 32, var(--tw-text-opacity));
+  color: rgba(247, 177, 89, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-MongoDB {
   --tw-text-opacity: 1;
-  color: rgba(63, 160, 55, var(--tw-text-opacity));
+  color: rgba(95, 156, 90, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-MySQL {
@@ -25701,7 +25726,7 @@ video {
 
 .focus-within\:text-Node:focus-within {
   --tw-text-opacity: 1;
-  color: rgba(60, 135, 58, var(--tw-text-opacity));
+  color: rgba(84, 138, 83, var(--tw-text-opacity));
 }
 
 .focus-within\:text-Git:focus-within {
@@ -25711,12 +25736,12 @@ video {
 
 .focus-within\:text-Java:focus-within {
   --tw-text-opacity: 1;
-  color: rgba(248, 152, 32, var(--tw-text-opacity));
+  color: rgba(247, 177, 89, var(--tw-text-opacity));
 }
 
 .focus-within\:text-MongoDB:focus-within {
   --tw-text-opacity: 1;
-  color: rgba(63, 160, 55, var(--tw-text-opacity));
+  color: rgba(95, 156, 90, var(--tw-text-opacity));
 }
 
 .focus-within\:text-MySQL:focus-within {
@@ -26174,7 +26199,7 @@ video {
 
 .hover\:text-Node:hover {
   --tw-text-opacity: 1;
-  color: rgba(60, 135, 58, var(--tw-text-opacity));
+  color: rgba(84, 138, 83, var(--tw-text-opacity));
 }
 
 .hover\:text-Git:hover {
@@ -26184,12 +26209,12 @@ video {
 
 .hover\:text-Java:hover {
   --tw-text-opacity: 1;
-  color: rgba(248, 152, 32, var(--tw-text-opacity));
+  color: rgba(247, 177, 89, var(--tw-text-opacity));
 }
 
 .hover\:text-MongoDB:hover {
   --tw-text-opacity: 1;
-  color: rgba(63, 160, 55, var(--tw-text-opacity));
+  color: rgba(95, 156, 90, var(--tw-text-opacity));
 }
 
 .hover\:text-MySQL:hover {
@@ -26647,7 +26672,7 @@ video {
 
 .focus\:text-Node:focus {
   --tw-text-opacity: 1;
-  color: rgba(60, 135, 58, var(--tw-text-opacity));
+  color: rgba(84, 138, 83, var(--tw-text-opacity));
 }
 
 .focus\:text-Git:focus {
@@ -26657,12 +26682,12 @@ video {
 
 .focus\:text-Java:focus {
   --tw-text-opacity: 1;
-  color: rgba(248, 152, 32, var(--tw-text-opacity));
+  color: rgba(247, 177, 89, var(--tw-text-opacity));
 }
 
 .focus\:text-MongoDB:focus {
   --tw-text-opacity: 1;
-  color: rgba(63, 160, 55, var(--tw-text-opacity));
+  color: rgba(95, 156, 90, var(--tw-text-opacity));
 }
 
 .focus\:text-MySQL:focus {
@@ -34474,6 +34499,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -34890,6 +34920,11 @@ video {
   .group:hover .sm\:group-hover\:bg-pink-900 {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .sm\:focus-within\:bg-transparent:focus-within {
@@ -35310,6 +35345,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-footer-purple:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -35728,6 +35768,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-footer-purple:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -36144,6 +36189,11 @@ video {
   .sm\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-footer-purple:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .sm\:bg-none {
@@ -56685,7 +56735,7 @@ video {
 
   .sm\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .sm\:text-Git {
@@ -56695,12 +56745,12 @@ video {
 
   .sm\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .sm\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .sm\:text-MySQL {
@@ -57158,7 +57208,7 @@ video {
 
   .group:hover .sm\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-Git {
@@ -57168,12 +57218,12 @@ video {
 
   .group:hover .sm\:group-hover\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-MySQL {
@@ -57631,7 +57681,7 @@ video {
 
   .sm\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-Git:focus-within {
@@ -57641,12 +57691,12 @@ video {
 
   .sm\:focus-within\:text-Java:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-MongoDB:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-MySQL:focus-within {
@@ -58104,7 +58154,7 @@ video {
 
   .sm\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-Git:hover {
@@ -58114,12 +58164,12 @@ video {
 
   .sm\:hover\:text-Java:hover {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-MongoDB:hover {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-MySQL:hover {
@@ -58577,7 +58627,7 @@ video {
 
   .sm\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-Git:focus {
@@ -58587,12 +58637,12 @@ video {
 
   .sm\:focus\:text-Java:focus {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-MongoDB:focus {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-MySQL:focus {
@@ -66239,6 +66289,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .md\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -66655,6 +66710,11 @@ video {
   .group:hover .md\:group-hover\:bg-pink-900 {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .md\:focus-within\:bg-transparent:focus-within {
@@ -67075,6 +67135,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-footer-purple:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -67493,6 +67558,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-footer-purple:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -67909,6 +67979,11 @@ video {
   .md\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-footer-purple:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .md\:bg-none {
@@ -88450,7 +88525,7 @@ video {
 
   .md\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .md\:text-Git {
@@ -88460,12 +88535,12 @@ video {
 
   .md\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .md\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .md\:text-MySQL {
@@ -88923,7 +88998,7 @@ video {
 
   .group:hover .md\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-Git {
@@ -88933,12 +89008,12 @@ video {
 
   .group:hover .md\:group-hover\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-MySQL {
@@ -89396,7 +89471,7 @@ video {
 
   .md\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-Git:focus-within {
@@ -89406,12 +89481,12 @@ video {
 
   .md\:focus-within\:text-Java:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-MongoDB:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-MySQL:focus-within {
@@ -89869,7 +89944,7 @@ video {
 
   .md\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-Git:hover {
@@ -89879,12 +89954,12 @@ video {
 
   .md\:hover\:text-Java:hover {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-MongoDB:hover {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-MySQL:hover {
@@ -90342,7 +90417,7 @@ video {
 
   .md\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-Git:focus {
@@ -90352,12 +90427,12 @@ video {
 
   .md\:focus\:text-Java:focus {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-MongoDB:focus {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-MySQL:focus {
@@ -98004,6 +98079,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -98420,6 +98500,11 @@ video {
   .group:hover .lg\:group-hover\:bg-pink-900 {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .lg\:focus-within\:bg-transparent:focus-within {
@@ -98840,6 +98925,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-footer-purple:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -99258,6 +99348,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-footer-purple:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -99674,6 +99769,11 @@ video {
   .lg\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-footer-purple:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .lg\:bg-none {
@@ -120215,7 +120315,7 @@ video {
 
   .lg\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .lg\:text-Git {
@@ -120225,12 +120325,12 @@ video {
 
   .lg\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .lg\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .lg\:text-MySQL {
@@ -120688,7 +120788,7 @@ video {
 
   .group:hover .lg\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-Git {
@@ -120698,12 +120798,12 @@ video {
 
   .group:hover .lg\:group-hover\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-MySQL {
@@ -121161,7 +121261,7 @@ video {
 
   .lg\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-Git:focus-within {
@@ -121171,12 +121271,12 @@ video {
 
   .lg\:focus-within\:text-Java:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-MongoDB:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-MySQL:focus-within {
@@ -121634,7 +121734,7 @@ video {
 
   .lg\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-Git:hover {
@@ -121644,12 +121744,12 @@ video {
 
   .lg\:hover\:text-Java:hover {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-MongoDB:hover {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-MySQL:hover {
@@ -122107,7 +122207,7 @@ video {
 
   .lg\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-Git:focus {
@@ -122117,12 +122217,12 @@ video {
 
   .lg\:focus\:text-Java:focus {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-MongoDB:focus {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-MySQL:focus {
@@ -129769,6 +129869,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -130185,6 +130290,11 @@ video {
   .group:hover .xl\:group-hover\:bg-pink-900 {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .xl\:focus-within\:bg-transparent:focus-within {
@@ -130605,6 +130715,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-footer-purple:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -131023,6 +131138,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-footer-purple:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -131439,6 +131559,11 @@ video {
   .xl\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-footer-purple:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .xl\:bg-none {
@@ -151980,7 +152105,7 @@ video {
 
   .xl\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .xl\:text-Git {
@@ -151990,12 +152115,12 @@ video {
 
   .xl\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .xl\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .xl\:text-MySQL {
@@ -152453,7 +152578,7 @@ video {
 
   .group:hover .xl\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-Git {
@@ -152463,12 +152588,12 @@ video {
 
   .group:hover .xl\:group-hover\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-MySQL {
@@ -152926,7 +153051,7 @@ video {
 
   .xl\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-Git:focus-within {
@@ -152936,12 +153061,12 @@ video {
 
   .xl\:focus-within\:text-Java:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-MongoDB:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-MySQL:focus-within {
@@ -153399,7 +153524,7 @@ video {
 
   .xl\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-Git:hover {
@@ -153409,12 +153534,12 @@ video {
 
   .xl\:hover\:text-Java:hover {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-MongoDB:hover {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-MySQL:hover {
@@ -153872,7 +153997,7 @@ video {
 
   .xl\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-Git:focus {
@@ -153882,12 +154007,12 @@ video {
 
   .xl\:focus\:text-Java:focus {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-MongoDB:focus {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-MySQL:focus {
@@ -161534,6 +161659,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -161950,6 +162080,11 @@ video {
   .group:hover .\32xl\:group-hover\:bg-pink-900 {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-footer-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus-within\:bg-transparent:focus-within {
@@ -162370,6 +162505,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus-within\:bg-footer-purple:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .\32xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -162788,6 +162928,11 @@ video {
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
   }
 
+  .\32xl\:hover\:bg-footer-purple:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -163204,6 +163349,11 @@ video {
   .\32xl\:focus\:bg-pink-900:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(131, 24, 67, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-footer-purple:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
   .\32xl\:bg-none {
@@ -183745,7 +183895,7 @@ video {
 
   .\32xl\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .\32xl\:text-Git {
@@ -183755,12 +183905,12 @@ video {
 
   .\32xl\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .\32xl\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .\32xl\:text-MySQL {
@@ -184218,7 +184368,7 @@ video {
 
   .group:hover .\32xl\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-Git {
@@ -184228,12 +184378,12 @@ video {
 
   .group:hover .\32xl\:group-hover\:text-Java {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-MongoDB {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-MySQL {
@@ -184691,7 +184841,7 @@ video {
 
   .\32xl\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-Git:focus-within {
@@ -184701,12 +184851,12 @@ video {
 
   .\32xl\:focus-within\:text-Java:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-MongoDB:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-MySQL:focus-within {
@@ -185164,7 +185314,7 @@ video {
 
   .\32xl\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-Git:hover {
@@ -185174,12 +185324,12 @@ video {
 
   .\32xl\:hover\:text-Java:hover {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-MongoDB:hover {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-MySQL:hover {
@@ -185637,7 +185787,7 @@ video {
 
   .\32xl\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(60, 135, 58, var(--tw-text-opacity));
+    color: rgba(84, 138, 83, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-Git:focus {
@@ -185647,12 +185797,12 @@ video {
 
   .\32xl\:focus\:text-Java:focus {
     --tw-text-opacity: 1;
-    color: rgba(248, 152, 32, var(--tw-text-opacity));
+    color: rgba(247, 177, 89, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-MongoDB:focus {
     --tw-text-opacity: 1;
-    color: rgba(63, 160, 55, var(--tw-text-opacity));
+    color: rgba(95, 156, 90, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-MySQL:focus {
