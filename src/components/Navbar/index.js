@@ -55,7 +55,7 @@ const Navbar = ({isBlurred, toggleNav, isOpen}) => {
               <div>Projects</div>
             </div>
           </Link>
-          <Link to="contact" activeClass="text-cust-cyan" smooth={true} spy={true} offset={0} className="p-4 pr-0 cursor-pointer">
+          <Link to="contact" activeClass="text-cust-cyan" smooth={true} spy={true} offset={30} className="p-4 pr-0 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="pb-1 pr-1">
                 <AiFillContacts />
