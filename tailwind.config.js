@@ -28,7 +28,8 @@ module.exports = {
         'end': '#80ffdb'
        }),
        backgroundColor: {
-         'footer-purple': '#B721FF'
+         'footer-purple': '#B721FF',
+         'button-yellow': '#FEE715FF'
        }
     },
     textIndent: theme => theme('spacing'),

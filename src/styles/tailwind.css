@@ -2536,6 +2536,10 @@ video {
   background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
 }
 
+.bg-button-yellow {
+  background-color: #FEE715FF;
+}
+
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
@@ -2957,6 +2961,10 @@ video {
 .group:hover .group-hover\:bg-footer-purple {
   --tw-bg-opacity: 1;
   background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-button-yellow {
+  background-color: #FEE715FF;
 }
 
 .focus-within\:bg-transparent:focus-within {
@@ -3382,6 +3390,10 @@ video {
   background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-button-yellow:focus-within {
+  background-color: #FEE715FF;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -3805,6 +3817,10 @@ video {
   background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
 }
 
+.hover\:bg-button-yellow:hover {
+  background-color: #FEE715FF;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -4226,6 +4242,10 @@ video {
 .focus\:bg-footer-purple:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+}
+
+.focus\:bg-button-yellow:focus {
+  background-color: #FEE715FF;
 }
 
 .bg-none {
@@ -34504,6 +34524,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-button-yellow {
+    background-color: #FEE715FF;
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -34925,6 +34949,10 @@ video {
   .group:hover .sm\:group-hover\:bg-footer-purple {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-button-yellow {
+    background-color: #FEE715FF;
   }
 
   .sm\:focus-within\:bg-transparent:focus-within {
@@ -35350,6 +35378,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-button-yellow:focus-within {
+    background-color: #FEE715FF;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -35773,6 +35805,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-button-yellow:hover {
+    background-color: #FEE715FF;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -36194,6 +36230,10 @@ video {
   .sm\:focus\:bg-footer-purple:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-button-yellow:focus {
+    background-color: #FEE715FF;
   }
 
   .sm\:bg-none {
@@ -66294,6 +66334,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .md\:bg-button-yellow {
+    background-color: #FEE715FF;
+  }
+
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -66715,6 +66759,10 @@ video {
   .group:hover .md\:group-hover\:bg-footer-purple {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-button-yellow {
+    background-color: #FEE715FF;
   }
 
   .md\:focus-within\:bg-transparent:focus-within {
@@ -67140,6 +67188,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-button-yellow:focus-within {
+    background-color: #FEE715FF;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -67563,6 +67615,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-button-yellow:hover {
+    background-color: #FEE715FF;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -67984,6 +68040,10 @@ video {
   .md\:focus\:bg-footer-purple:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-button-yellow:focus {
+    background-color: #FEE715FF;
   }
 
   .md\:bg-none {
@@ -98084,6 +98144,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-button-yellow {
+    background-color: #FEE715FF;
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -98505,6 +98569,10 @@ video {
   .group:hover .lg\:group-hover\:bg-footer-purple {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-button-yellow {
+    background-color: #FEE715FF;
   }
 
   .lg\:focus-within\:bg-transparent:focus-within {
@@ -98930,6 +98998,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-button-yellow:focus-within {
+    background-color: #FEE715FF;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -99353,6 +99425,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-button-yellow:hover {
+    background-color: #FEE715FF;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -99774,6 +99850,10 @@ video {
   .lg\:focus\:bg-footer-purple:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-button-yellow:focus {
+    background-color: #FEE715FF;
   }
 
   .lg\:bg-none {
@@ -129874,6 +129954,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-button-yellow {
+    background-color: #FEE715FF;
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -130295,6 +130379,10 @@ video {
   .group:hover .xl\:group-hover\:bg-footer-purple {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-button-yellow {
+    background-color: #FEE715FF;
   }
 
   .xl\:focus-within\:bg-transparent:focus-within {
@@ -130720,6 +130808,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-button-yellow:focus-within {
+    background-color: #FEE715FF;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -131143,6 +131235,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-button-yellow:hover {
+    background-color: #FEE715FF;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -131564,6 +131660,10 @@ video {
   .xl\:focus\:bg-footer-purple:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-button-yellow:focus {
+    background-color: #FEE715FF;
   }
 
   .xl\:bg-none {
@@ -161664,6 +161764,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-button-yellow {
+    background-color: #FEE715FF;
+  }
+
   .group:hover .\32xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -162085,6 +162189,10 @@ video {
   .group:hover .\32xl\:group-hover\:bg-footer-purple {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-button-yellow {
+    background-color: #FEE715FF;
   }
 
   .\32xl\:focus-within\:bg-transparent:focus-within {
@@ -162510,6 +162618,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus-within\:bg-button-yellow:focus-within {
+    background-color: #FEE715FF;
+  }
+
   .\32xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -162933,6 +163045,10 @@ video {
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
   }
 
+  .\32xl\:hover\:bg-button-yellow:hover {
+    background-color: #FEE715FF;
+  }
+
   .\32xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -163354,6 +163470,10 @@ video {
   .\32xl\:focus\:bg-footer-purple:focus {
     --tw-bg-opacity: 1;
     background-color: rgba(183, 33, 255, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-button-yellow:focus {
+    background-color: #FEE715FF;
   }
 
   .\32xl\:bg-none {
