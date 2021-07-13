@@ -5,6 +5,7 @@ import Jumbotron from "../../components/Jumbotron";
 import About from "../../components/About";
 import Skill from "../../components/Skill";
 import Project from "../../components/Project";
+import Contact from "../../components/Contact";
 
 
 const Home = () => {
@@ -18,6 +19,8 @@ const Home = () => {
       <Skill/>
       {/* Project */}
       <Project/>
+      {/* Contact */}
+      <Contact/>
     </Container>
   );
 };

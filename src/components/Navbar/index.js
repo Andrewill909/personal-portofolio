@@ -1,17 +1,18 @@
 import * as React from "react";
-// import { Link } from "react-router-dom";
 //icon
 import HiMenuAlt3 from "@meronex/icons/hi/HiMenuAlt3";
 import AiOutlineHome from "@meronex/icons/ai/AiOutlineHome";
 import FdSocialSkillshare from '@meronex/icons/fd/FdSocialSkillshare';
 import AiOutlineFundProjectionScreen from "@meronex/icons/ai/AiOutlineFundProjectionScreen";
+import AiOutlineClose from '@meronex/icons/ai/AiOutlineClose';
+import AiFillContacts from '@meronex/icons/ai/AiFillContacts';
 import logo from '../../asset/logo.png';
 //components
 import Container from "../Container";
 //smooth scroll
 import {Link} from 'react-scroll';
 
-const Navbar = ({isBlurred}) => {
+const Navbar = ({isBlurred, toggleNav, isOpen}) => {
 
   return (
     <nav
@@ -25,8 +26,8 @@ const Navbar = ({isBlurred}) => {
           </div>       
         </Link>
 
-        <div className="px-4 cursor-pointer md:hidden">
-          <HiMenuAlt3 className="w-7 h-7" />
+        <div id="menuButton" className="px-4 cursor-pointer md:hidden" onClick={toggleNav}>
+          {isOpen? <AiOutlineClose className="text-2xl"/> : <HiMenuAlt3 className="w-7 h-7" />}
         </div>
 
         <div className="md:pr-0 md:flex hidden md:justify-between md:items-center">
@@ -43,15 +44,23 @@ const Navbar = ({isBlurred}) => {
               <div className="pb-1 pr-1">
                 <FdSocialSkillshare />
               </div>
-              <div>Skill</div>
+              <div>Skills</div>
             </div>
           </Link>
-          <Link to="project" activeClass="text-cust-cyan" smooth={true} spy={true} offset={-70} className="p-4 pr-0 cursor-pointer">
+          <Link to="project" activeClass="text-cust-cyan" smooth={true} spy={true} offset={-70} className="p-4 cursor-pointer">
             <div className="flex justify-between items-center">
               <div className="pb-1 pr-1">
                 <AiOutlineFundProjectionScreen />
               </div>
-              <div>Project</div>
+              <div>Projects</div>
+            </div>
+          </Link>
+          <Link to="contact" activeClass="text-cust-cyan" smooth={true} spy={true} offset={0} className="p-4 pr-0 cursor-pointer">
+            <div className="flex justify-between items-center">
+              <div className="pb-1 pr-1">
+                <AiFillContacts />
+              </div>
+              <div>Contact</div>
             </div>
           </Link>
         </div>

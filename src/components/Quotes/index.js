@@ -30,7 +30,7 @@ export default function Quotes(){
     else
         return (
             <div className="">
-                <p className="mb-2">Just a random programming quotes :</p>
+                <p className="mb-2">Random quotes every 15s :</p>
                 <span className="text-justify leading-normal">{quote}</span>
                 <br/>
                 <span className="text-purple-500 mt-2 block">~ {author}</span>

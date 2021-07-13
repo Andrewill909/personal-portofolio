@@ -8,7 +8,7 @@ const project = [
     url: 'https://github.com/Andrewill909/web-API-foodstore-server',
     tags: ['NodeJs', 'ExpressJS', 'MongoDB'],
     desc: `This project is created in terms of learning javascript's runtime environtment which is NodeJS. Foodstore API provides database
-    for food data, JWT auth, payment gateway, and many more. This is built for e-commerce development (not only for food data).`
+    for food data, JWT auth, payment gateway, and many more. This is built for e-commerce development (general).`
   },
   {
     name: 'Foodstore-UI',
@@ -16,14 +16,14 @@ const project = [
     url: 'https://github.com/Andrewill909/foodstore-ui',
     tags: ['ReactJS', 'TailwindCSS', 'consume API'],
     desc: `This project is the frontend side which consume API provided by "Foodstore REST API". Using upkit liblary and tailwindCSS
-    caused this website is fully responsive and user friendly with it's sleek design. Foodstore-UI consumes almost all of the APIs provided, except for the administrator enpoints.`
+    caused this website is fully responsive and user friendly with it's sleek design. Foodstore-UI consumes almost all of the APIs provided, except for the administrator endpoints.`
   },
   {
     name: 'Restaurant Database System',
     img: 'databasesystem.png',
     url: 'https://github.com/Andrewill909/Restaurant-management-system',
     tags: ['Javascript', 'PHP', 'Jquery-AJAX'],
-    desc: `This project is made as my 4th semester final project in database system course. Using AJAX to fetch data from the backend (php native) and bootstrap for templating/layouting. This system support for authentication, view products (including sorting), and checkout. nb: no payment gateway
+    desc: `This project is made as my 4th semester final project in database system course. Using AJAX to fetch data from the backend (php native) and bootstrap for templating/layouting. This system support for authentication, view products (including sorting), and checkout.
     `
   },
   {
@@ -57,7 +57,7 @@ export default function Project() {
               </div>
             </a>
           </div>
-          <div className="px-6 py-4 overflow-scroll h-60">
+          <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{itm.name}</div>
             <p className="text-pink-100 text-base indent-sm text-justify">{itm.desc}</p>
           </div>
