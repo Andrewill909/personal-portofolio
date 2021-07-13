@@ -24765,7 +24765,7 @@ video {
 
 .text-CSS {
   --tw-text-opacity: 1;
-  color: rgba(38, 77, 228, var(--tw-text-opacity));
+  color: rgba(95, 122, 227, var(--tw-text-opacity));
 }
 
 .text-Javascript {
@@ -24780,7 +24780,7 @@ video {
 
 .text-Node {
   --tw-text-opacity: 1;
-  color: rgba(84, 138, 83, var(--tw-text-opacity));
+  color: rgba(146, 219, 145, var(--tw-text-opacity));
 }
 
 .text-Git {
@@ -24800,7 +24800,7 @@ video {
 
 .text-MySQL {
   --tw-text-opacity: 1;
-  color: rgba(0, 117, 143, var(--tw-text-opacity));
+  color: rgba(131, 210, 230, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-transparent {
@@ -25238,7 +25238,7 @@ video {
 
 .group:hover .group-hover\:text-CSS {
   --tw-text-opacity: 1;
-  color: rgba(38, 77, 228, var(--tw-text-opacity));
+  color: rgba(95, 122, 227, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-Javascript {
@@ -25253,7 +25253,7 @@ video {
 
 .group:hover .group-hover\:text-Node {
   --tw-text-opacity: 1;
-  color: rgba(84, 138, 83, var(--tw-text-opacity));
+  color: rgba(146, 219, 145, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-Git {
@@ -25273,7 +25273,7 @@ video {
 
 .group:hover .group-hover\:text-MySQL {
   --tw-text-opacity: 1;
-  color: rgba(0, 117, 143, var(--tw-text-opacity));
+  color: rgba(131, 210, 230, var(--tw-text-opacity));
 }
 
 .focus-within\:text-transparent:focus-within {
@@ -25711,7 +25711,7 @@ video {
 
 .focus-within\:text-CSS:focus-within {
   --tw-text-opacity: 1;
-  color: rgba(38, 77, 228, var(--tw-text-opacity));
+  color: rgba(95, 122, 227, var(--tw-text-opacity));
 }
 
 .focus-within\:text-Javascript:focus-within {
@@ -25726,7 +25726,7 @@ video {
 
 .focus-within\:text-Node:focus-within {
   --tw-text-opacity: 1;
-  color: rgba(84, 138, 83, var(--tw-text-opacity));
+  color: rgba(146, 219, 145, var(--tw-text-opacity));
 }
 
 .focus-within\:text-Git:focus-within {
@@ -25746,7 +25746,7 @@ video {
 
 .focus-within\:text-MySQL:focus-within {
   --tw-text-opacity: 1;
-  color: rgba(0, 117, 143, var(--tw-text-opacity));
+  color: rgba(131, 210, 230, var(--tw-text-opacity));
 }
 
 .hover\:text-transparent:hover {
@@ -26184,7 +26184,7 @@ video {
 
 .hover\:text-CSS:hover {
   --tw-text-opacity: 1;
-  color: rgba(38, 77, 228, var(--tw-text-opacity));
+  color: rgba(95, 122, 227, var(--tw-text-opacity));
 }
 
 .hover\:text-Javascript:hover {
@@ -26199,7 +26199,7 @@ video {
 
 .hover\:text-Node:hover {
   --tw-text-opacity: 1;
-  color: rgba(84, 138, 83, var(--tw-text-opacity));
+  color: rgba(146, 219, 145, var(--tw-text-opacity));
 }
 
 .hover\:text-Git:hover {
@@ -26219,7 +26219,7 @@ video {
 
 .hover\:text-MySQL:hover {
   --tw-text-opacity: 1;
-  color: rgba(0, 117, 143, var(--tw-text-opacity));
+  color: rgba(131, 210, 230, var(--tw-text-opacity));
 }
 
 .focus\:text-transparent:focus {
@@ -26657,7 +26657,7 @@ video {
 
 .focus\:text-CSS:focus {
   --tw-text-opacity: 1;
-  color: rgba(38, 77, 228, var(--tw-text-opacity));
+  color: rgba(95, 122, 227, var(--tw-text-opacity));
 }
 
 .focus\:text-Javascript:focus {
@@ -26672,7 +26672,7 @@ video {
 
 .focus\:text-Node:focus {
   --tw-text-opacity: 1;
-  color: rgba(84, 138, 83, var(--tw-text-opacity));
+  color: rgba(146, 219, 145, var(--tw-text-opacity));
 }
 
 .focus\:text-Git:focus {
@@ -26692,7 +26692,7 @@ video {
 
 .focus\:text-MySQL:focus {
   --tw-text-opacity: 1;
-  color: rgba(0, 117, 143, var(--tw-text-opacity));
+  color: rgba(131, 210, 230, var(--tw-text-opacity));
 }
 
 .text-opacity-0 {
@@ -56720,7 +56720,7 @@ video {
 
   .sm\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .sm\:text-Javascript {
@@ -56735,7 +56735,7 @@ video {
 
   .sm\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .sm\:text-Git {
@@ -56755,7 +56755,7 @@ video {
 
   .sm\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-transparent {
@@ -57193,7 +57193,7 @@ video {
 
   .group:hover .sm\:group-hover\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-Javascript {
@@ -57208,7 +57208,7 @@ video {
 
   .group:hover .sm\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-Git {
@@ -57228,7 +57228,7 @@ video {
 
   .group:hover .sm\:group-hover\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-transparent:focus-within {
@@ -57666,7 +57666,7 @@ video {
 
   .sm\:focus-within\:text-CSS:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-Javascript:focus-within {
@@ -57681,7 +57681,7 @@ video {
 
   .sm\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .sm\:focus-within\:text-Git:focus-within {
@@ -57701,7 +57701,7 @@ video {
 
   .sm\:focus-within\:text-MySQL:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-transparent:hover {
@@ -58139,7 +58139,7 @@ video {
 
   .sm\:hover\:text-CSS:hover {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-Javascript:hover {
@@ -58154,7 +58154,7 @@ video {
 
   .sm\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .sm\:hover\:text-Git:hover {
@@ -58174,7 +58174,7 @@ video {
 
   .sm\:hover\:text-MySQL:hover {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -58612,7 +58612,7 @@ video {
 
   .sm\:focus\:text-CSS:focus {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-Javascript:focus {
@@ -58627,7 +58627,7 @@ video {
 
   .sm\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-Git:focus {
@@ -58647,7 +58647,7 @@ video {
 
   .sm\:focus\:text-MySQL:focus {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .sm\:text-opacity-0 {
@@ -88510,7 +88510,7 @@ video {
 
   .md\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .md\:text-Javascript {
@@ -88525,7 +88525,7 @@ video {
 
   .md\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .md\:text-Git {
@@ -88545,7 +88545,7 @@ video {
 
   .md\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-transparent {
@@ -88983,7 +88983,7 @@ video {
 
   .group:hover .md\:group-hover\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-Javascript {
@@ -88998,7 +88998,7 @@ video {
 
   .group:hover .md\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-Git {
@@ -89018,7 +89018,7 @@ video {
 
   .group:hover .md\:group-hover\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-transparent:focus-within {
@@ -89456,7 +89456,7 @@ video {
 
   .md\:focus-within\:text-CSS:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-Javascript:focus-within {
@@ -89471,7 +89471,7 @@ video {
 
   .md\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .md\:focus-within\:text-Git:focus-within {
@@ -89491,7 +89491,7 @@ video {
 
   .md\:focus-within\:text-MySQL:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-transparent:hover {
@@ -89929,7 +89929,7 @@ video {
 
   .md\:hover\:text-CSS:hover {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-Javascript:hover {
@@ -89944,7 +89944,7 @@ video {
 
   .md\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .md\:hover\:text-Git:hover {
@@ -89964,7 +89964,7 @@ video {
 
   .md\:hover\:text-MySQL:hover {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-transparent:focus {
@@ -90402,7 +90402,7 @@ video {
 
   .md\:focus\:text-CSS:focus {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-Javascript:focus {
@@ -90417,7 +90417,7 @@ video {
 
   .md\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-Git:focus {
@@ -90437,7 +90437,7 @@ video {
 
   .md\:focus\:text-MySQL:focus {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .md\:text-opacity-0 {
@@ -120300,7 +120300,7 @@ video {
 
   .lg\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .lg\:text-Javascript {
@@ -120315,7 +120315,7 @@ video {
 
   .lg\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .lg\:text-Git {
@@ -120335,7 +120335,7 @@ video {
 
   .lg\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-transparent {
@@ -120773,7 +120773,7 @@ video {
 
   .group:hover .lg\:group-hover\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-Javascript {
@@ -120788,7 +120788,7 @@ video {
 
   .group:hover .lg\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-Git {
@@ -120808,7 +120808,7 @@ video {
 
   .group:hover .lg\:group-hover\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-transparent:focus-within {
@@ -121246,7 +121246,7 @@ video {
 
   .lg\:focus-within\:text-CSS:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-Javascript:focus-within {
@@ -121261,7 +121261,7 @@ video {
 
   .lg\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .lg\:focus-within\:text-Git:focus-within {
@@ -121281,7 +121281,7 @@ video {
 
   .lg\:focus-within\:text-MySQL:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-transparent:hover {
@@ -121719,7 +121719,7 @@ video {
 
   .lg\:hover\:text-CSS:hover {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-Javascript:hover {
@@ -121734,7 +121734,7 @@ video {
 
   .lg\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .lg\:hover\:text-Git:hover {
@@ -121754,7 +121754,7 @@ video {
 
   .lg\:hover\:text-MySQL:hover {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -122192,7 +122192,7 @@ video {
 
   .lg\:focus\:text-CSS:focus {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-Javascript:focus {
@@ -122207,7 +122207,7 @@ video {
 
   .lg\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-Git:focus {
@@ -122227,7 +122227,7 @@ video {
 
   .lg\:focus\:text-MySQL:focus {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .lg\:text-opacity-0 {
@@ -152090,7 +152090,7 @@ video {
 
   .xl\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .xl\:text-Javascript {
@@ -152105,7 +152105,7 @@ video {
 
   .xl\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .xl\:text-Git {
@@ -152125,7 +152125,7 @@ video {
 
   .xl\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-transparent {
@@ -152563,7 +152563,7 @@ video {
 
   .group:hover .xl\:group-hover\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-Javascript {
@@ -152578,7 +152578,7 @@ video {
 
   .group:hover .xl\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-Git {
@@ -152598,7 +152598,7 @@ video {
 
   .group:hover .xl\:group-hover\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-transparent:focus-within {
@@ -153036,7 +153036,7 @@ video {
 
   .xl\:focus-within\:text-CSS:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-Javascript:focus-within {
@@ -153051,7 +153051,7 @@ video {
 
   .xl\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .xl\:focus-within\:text-Git:focus-within {
@@ -153071,7 +153071,7 @@ video {
 
   .xl\:focus-within\:text-MySQL:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-transparent:hover {
@@ -153509,7 +153509,7 @@ video {
 
   .xl\:hover\:text-CSS:hover {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-Javascript:hover {
@@ -153524,7 +153524,7 @@ video {
 
   .xl\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .xl\:hover\:text-Git:hover {
@@ -153544,7 +153544,7 @@ video {
 
   .xl\:hover\:text-MySQL:hover {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -153982,7 +153982,7 @@ video {
 
   .xl\:focus\:text-CSS:focus {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-Javascript:focus {
@@ -153997,7 +153997,7 @@ video {
 
   .xl\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-Git:focus {
@@ -154017,7 +154017,7 @@ video {
 
   .xl\:focus\:text-MySQL:focus {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .xl\:text-opacity-0 {
@@ -183880,7 +183880,7 @@ video {
 
   .\32xl\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .\32xl\:text-Javascript {
@@ -183895,7 +183895,7 @@ video {
 
   .\32xl\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .\32xl\:text-Git {
@@ -183915,7 +183915,7 @@ video {
 
   .\32xl\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-transparent {
@@ -184353,7 +184353,7 @@ video {
 
   .group:hover .\32xl\:group-hover\:text-CSS {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-Javascript {
@@ -184368,7 +184368,7 @@ video {
 
   .group:hover .\32xl\:group-hover\:text-Node {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-Git {
@@ -184388,7 +184388,7 @@ video {
 
   .group:hover .\32xl\:group-hover\:text-MySQL {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-transparent:focus-within {
@@ -184826,7 +184826,7 @@ video {
 
   .\32xl\:focus-within\:text-CSS:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-Javascript:focus-within {
@@ -184841,7 +184841,7 @@ video {
 
   .\32xl\:focus-within\:text-Node:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .\32xl\:focus-within\:text-Git:focus-within {
@@ -184861,7 +184861,7 @@ video {
 
   .\32xl\:focus-within\:text-MySQL:focus-within {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-transparent:hover {
@@ -185299,7 +185299,7 @@ video {
 
   .\32xl\:hover\:text-CSS:hover {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-Javascript:hover {
@@ -185314,7 +185314,7 @@ video {
 
   .\32xl\:hover\:text-Node:hover {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .\32xl\:hover\:text-Git:hover {
@@ -185334,7 +185334,7 @@ video {
 
   .\32xl\:hover\:text-MySQL:hover {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-transparent:focus {
@@ -185772,7 +185772,7 @@ video {
 
   .\32xl\:focus\:text-CSS:focus {
     --tw-text-opacity: 1;
-    color: rgba(38, 77, 228, var(--tw-text-opacity));
+    color: rgba(95, 122, 227, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-Javascript:focus {
@@ -185787,7 +185787,7 @@ video {
 
   .\32xl\:focus\:text-Node:focus {
     --tw-text-opacity: 1;
-    color: rgba(84, 138, 83, var(--tw-text-opacity));
+    color: rgba(146, 219, 145, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-Git:focus {
@@ -185807,7 +185807,7 @@ video {
 
   .\32xl\:focus\:text-MySQL:focus {
     --tw-text-opacity: 1;
-    color: rgba(0, 117, 143, var(--tw-text-opacity));
+    color: rgba(131, 210, 230, var(--tw-text-opacity));
   }
 
   .\32xl\:text-opacity-0 {

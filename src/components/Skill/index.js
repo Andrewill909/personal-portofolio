@@ -1,13 +1,14 @@
 import * as React from "react";
 //icon
-import { DiJavascript1, DiReact, DiNodejs, DiGithubBadge, DiJava, DiMongodb, DiMysql,DiHtml5,DiCss3 } from "react-icons/di";
+import { DiJavascript1, DiReact, DiGithubBadge, DiJava, DiMongodb, DiMysql,DiHtml5,DiCss3 } from "react-icons/di";
+import {IoLogoNodejs} from "react-icons/io"
 
 let skillset = [
     { name: "HTML", icons: <DiHtml5 />},
     { name: "CSS", icons: <DiCss3 /> },
     { name: "Javascript", icons: <DiJavascript1 /> },
     { name: "React", icons: <DiReact /> },
-    { name: "Node", icons: <DiNodejs /> },
+    { name: "Node", icons: <IoLogoNodejs /> },
      { name: "Git", icons: <DiGithubBadge /> },
      { name: "Java", icons: <DiJava /> },
      { name: "MongoDB", icons: <DiMongodb /> },
@@ -26,7 +27,7 @@ export default function Skill() {
                   <div data-aos="zoom-in" key={idx}>
                     <div key={idx} className="border flex flex-col justify-between items-center
                     border-gray-200 bg-clip-padding bg-white shadow-lg rounded-3xl bg-opacity-10 backdrop-filter backdrop-blur-xl p-4
-                    transform hover:scale-105 hover:bg-opacity-0 transition duration-300 group"
+                    transform hover:scale-105 hover:bg-purple-800 transition duration-300 group"
                     >
                         <div className={`mb-2 group-hover:text-${name}`}>{name}</div>
                         <div className={`text-3xl md:text-5xl group-hover:text-${name}`}>{icons}</div>

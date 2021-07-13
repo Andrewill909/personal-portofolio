@@ -13,14 +13,14 @@ module.exports = {
         'cust-cyan':'#66FCF1',
         'cust-peach': '#FF616D',
         'HTML':'#F16529',
-        'CSS': '#264de4',
+        'CSS': '#5f7ae3',
         'Javascript': '#F0DB4F',
         'React': '#61DBFB',
-        'Node': '#548a53',
+        'Node': '#92db91',
         'Git': '#F1502F',
         'Java': '#f7b159',
         'MongoDB': '#5f9c5a',
-        'MySQL': '#00758F'
+        'MySQL': '#83d2e6'
       },
       gradientColorStops: theme => ({
         ...theme('colors'),
