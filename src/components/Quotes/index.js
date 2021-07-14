@@ -10,7 +10,7 @@ export default function Quotes(){
         let fetchQuote = async () => {
             let {data}= await getQuote();
             // console.log(data)
-            setQuote(data.quote);
+            setQuote(data.content);
             setAuthor(data.author);
         }
         fetchQuote();

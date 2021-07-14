@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export async function getQuote(){
-    return await axios.get(`http://quotes.stormconsultancy.co.uk/random.json`);
+    return await axios.get(`https://api.quotable.io/random`);
 }
