@@ -3,6 +3,7 @@ import Tilt from 'react-tilt';
 //component
 import Type from '../Type';
 import Quotes from '../Quotes';
+import { AiOutlineDownload} from 'react-icons/ai';
 //ui
 import svg from '../../asset/jumbo.svg';
 
@@ -16,6 +17,17 @@ export default function Jumbotron(){
               <h1 className="heading block text-cust-cyan">ANDRE WILLIAM</h1>
               <div className="typer md:mt-0 text-cust-cyan text-xl">
                 <Type />
+              </div>
+              <div className="portofolio mt-2">
+                <a href="./portofolio.pdf" target="_blank">
+                  <button className="inline-flex justify-center items-center border-2 focus:outline-none rounded-lg h-8 p-2 bg-button-yellow text-purple-700
+                  font-semibold border-purple-600">
+                    <div className="text-lg">
+                      <AiOutlineDownload/>
+                    </div>
+                    <div className="text-sm ml-1">Download CV</div>
+                  </button>
+                </a>
               </div>
             </div>
             <div className="quotes mt-5 font-sans text-xl text-pink-100">

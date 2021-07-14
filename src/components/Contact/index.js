@@ -44,7 +44,7 @@ export default function Contact() {
   }
 
   return (
-    <div id="contact" className="md:col-span-2 py-20 md:py-48">
+    <div id="contact" className="md:col-span-2 py-20 md:py-52">
       <div className="grid grid-cols-1 md:grid-cols-12 ">
         <div className="formcontrol md:col-start-3 md:col-end-11">
             <div className="font-black p-4 text-2xl md:text-3xl text-cust-cyan text-center font-sans" data-aos="zoom-in">
@@ -76,7 +76,7 @@ export default function Contact() {
                     </div>
 
                     <div className="m-4 flex justify-center items-center font-mont">
-                        <button className="h-10 px-5 transition-colors duration-150 border-2 border-purple-600 rounded-lg focus:shadow-outline bg-button-yellow font-semibold text-purple-700 flex justify-center items-center" type="submit" disabled={isFetching}>
+                        <button className="h-10 px-5 border-2 border-purple-600 rounded-lg focus:outline-none bg-button-yellow font-semibold text-purple-700 flex justify-center items-center" type="submit" disabled={isFetching}>
                           <div className={`animate-spin mr-1 ${!isFetching && 'hidden'}`}>
                             <img src={svg} alt="" />
                           </div>
