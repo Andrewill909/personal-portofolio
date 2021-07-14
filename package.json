@@ -1,4 +1,5 @@
 {
+  "homepage":"http://Andrewill909.gitub.io/personal-portofolio",
   "name": "portofolio-andre",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "autoprefixer": "^10.2.6",
     "axios": "^0.21.1",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -33,7 +35,8 @@
     "start": "npm run build:styles && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
