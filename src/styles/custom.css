@@ -1,7 +1,7 @@
  html{
   background-color: black;
-  /* background-image: linear-gradient(19deg, #21D4FD 0%,#B721FF 100%); */
-   background-image: linear-gradient(45deg, #b721ff 0%, #1fc3e7 100%);
+  background-image: linear-gradient(19deg, #21D4FD 0%,#B721FF 100%);
+  background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
 } 

@@ -57,7 +57,7 @@ export default function Contact() {
                         <label className="block text-cust-cyan text-xl font-bold mb-2" htmlFor="from_name">
                             Name
                         </label>
-                        <input required className="bg-white focus:outline-none ring-4 ring-yellow-300 focus:ring-red-500 rounded-lg py-2 px-4 block w-full leading-normal text-purple-900 font-semibold" type="text" id="from_name" value={form.from_name} placeholder="Your name" 
+                        <input required className="bg-white focus:outline-none ring-4 ring-purple-500 focus:ring-yellow-300 rounded-lg py-2 px-4 block w-full leading-normal text-purple-900 font-semibold" type="text" id="from_name" value={form.from_name} placeholder="Your name" 
                         onChange={e => setForm({...form, from_name: e.target.value})}/>
                     </div>
 
@@ -65,14 +65,14 @@ export default function Contact() {
                         <label className="block text-cust-cyan text-xl font-bold mb-2" htmlFor="from_email">
                             Email
                         </label>
-                        <input required className="bg-white focus:outline-none ring-4 ring-yellow-300 focus:ring-red-500 rounded-lg py-2 px-4 block w-full leading-normal text-purple-900 font-semibold" type="email" placeholder="Your email" id="from_email" value={form.from_email} onChange={e => setForm({...form, from_email: e.target.value})}/>
+                        <input required className="bg-white focus:outline-none ring-4 ring-purple-500 focus:ring-yellow-300 rounded-lg py-2 px-4 block w-full leading-normal text-purple-900 font-semibold" type="email" placeholder="Your email" id="from_email" value={form.from_email} onChange={e => setForm({...form, from_email: e.target.value})}/>
                     </div>
 
                     <div className="m-4">
                         <label className="block text-cust-cyan text-xl font-bold mb-2" htmlFor="message">
                             Message
                         </label>
-                        <textarea required rows={5} data-gramm_editor="false" className="bg-white focus:outline-none ring-4 ring-yellow-300 focus:ring-red-500 rounded-lg py-2 px-4 block w-full leading-normal text-purple-900 font-semibold" type="text" placeholder="Message" id="message" value={form.message} onChange={e => setForm({...form, message: e.target.value})}/>
+                        <textarea required rows={5} data-gramm_editor="false" className="bg-white focus:outline-none ring-4 ring-purple-500 focus:ring-yellow-200 rounded-lg py-2 px-4 block w-full leading-normal text-purple-900 font-semibold" type="text" placeholder="Message" id="message" value={form.message} onChange={e => setForm({...form, message: e.target.value})}/>
                     </div>
 
                     <div className="m-4 flex justify-center items-center font-mont">
