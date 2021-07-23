@@ -31,7 +31,7 @@ const project = [
     img: 'tumpukan.png',
     url: 'https://github.com/Andrewill909/Discussion-Forum-Tumpukan-luber',
     tags: ['Laravel', 'PHP', 'MySQL'],
-    desc: `This project is made as final project for Sanbercode lavarel bootcamp on july 2020. My teams consist of 3 people (each one has specific role). My role is creating authentication, frontend, and replying thread feature.`
+    desc: `This project is made as final project for Sanbercode lavarel bootcamp on july 2020. It's basicly a website forum where programmers can discuss their problems in programming. The features included in this websites are posting thread, replying thread, up/downvote a thread, etc .`
   }
 
 ]

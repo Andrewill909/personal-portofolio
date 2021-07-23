@@ -14,7 +14,7 @@ export default function About() {
       </div>
       <div className=" p-4 font-sans md:col-start-2 md:col-end-3 md:row-start-2 md:row-end-3 text-xl md:text-2xl text-justify flex flex-col justify-evenly text-pink-100">
         <p className="block leading-normal md:leading-loose indent-sm md:indent-md">
-          Hello there, my name is Andre William and I am 20 years old. While studying in my 4th semester in the Computer Science field, I have done many projects in web development using modern web technologies/languages and frameworks such as Javascript, ReactJS, NodeJS, Laravel, and many more. Beside of web applications, I'm interested in artificial intelligence and database management. While doing any task/project, I always try to write clean codes and doing the best practices.
+          Hello there, my name is Andre William and I'm 20 years old. After learning to code over a year, I have done many projects in web development using modern technologies/languages and frameworks such as Javascript, ReactJS, NodeJS, Laravel, and many more. Beside of web applications, I have interest in artificial intelligence and database management too. Writing clean codes and doing the best practices is my priority to achieve the best result.
         </p>
       </div>
     </>

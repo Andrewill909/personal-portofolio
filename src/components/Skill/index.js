@@ -19,7 +19,7 @@ export default function Skill() {
   return (
     <div id="skill" className="md:col-span-2">
       <div className="font-black bg-purple-800 bg-clip-padding shadow-lg rounded-3xl bg-opacity-10 border border-gray-200 backdrop-filter backdrop-blur-xl p-4 text-2xl md:text-3xl text-cust-cyan text-center font-sans" data-aos="zoom-in">
-          Professional Skillset
+          Techstack
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 text-xl md:text-2xl gap-4 p-3">
             {skillset.map((({name, icons}, idx) => {

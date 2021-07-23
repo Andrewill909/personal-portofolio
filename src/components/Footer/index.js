@@ -6,7 +6,7 @@ import {AiOutlineCopyrightCircle, AiFillFacebook, AiFillGithub,
 
 export default function Footer(){
     return <div className="mt-5 w-full">
-        <footer className="flex items-center bg-footer-purple shadow-md 
+        <footer className="flex items-center bg-footer-purple shadow-md
        w-full top-0 z-50 text-base  md:text-lg bg-opacity-90 backdrop-filter backdrop-blur-md rounded-t-md">
           <Container styling="grid grid-cols-1 md:grid-cols-3 place-items-center gap-1">
             <div className="font-medium">
