@@ -25,12 +25,12 @@ export default function Quotes(){
 
     if(!quote || !author)
         return (
-            <div>Cannot retrieve quote :(</div>
+            <div>Loading qutote ...(</div>
         )
     else
         return (
             <div className="">
-                <p className="mb-2">Random quotes every 15s :</p>
+                <p className="mb-2">Random quotes :</p>
                 <span className="text-justify leading-normal">{quote}</span>
                 <br/>
                 <span className="text-purple-500 mt-2 block">~ {author}</span>
