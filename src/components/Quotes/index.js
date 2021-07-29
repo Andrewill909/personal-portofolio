@@ -25,7 +25,7 @@ export default function Quotes(){
 
     if(!quote || !author)
         return (
-            <div>Loading qutote ...(</div>
+            <div>Loading quote ... </div>
         )
     else
         return (
