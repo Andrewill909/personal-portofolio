@@ -33,10 +33,10 @@ const project = [
     tags: ['Laravel', 'PHP', 'MySQL'],
     desc: `This project is made as final project for Sanbercode lavarel bootcamp on july 2020. It's basicly a website forum where programmers can discuss their problems in programming. The features included in this websites are posting thread, replying thread, up/downvote a thread, etc .`
   }
-
 ]
 
 export default function Project() {
+
   return (
     <div id="project" className="bg-clip-padding shadow-lg rounded-3xl bg-opacity-60 border border-grey-200 backdrop-filter backdrop-blur-xl p-4 font-mont md:col-span-2 text-2xl md:text-3xl text-cust-cyan flex flex-col">
       <div className="text-center p-10 font-sans font-black">
@@ -48,19 +48,24 @@ export default function Project() {
           return (
         <div key={idx} className="max-w-sm rounded-3xl backdrop-filter backdrop-blur-xl bg-opacity-10 bg-white overflow-hidden shadow-lg
             place-self-center border border-gray-200" data-aos="zoom-in">
-          <div className="image relative">
-            <img className="w-full border-bottom border-gray-200 block" src={`projects/${itm.img}`} alt="Mountain" />
-            <a className="overlay absolute bg-purple-900 z-50 w-full h-full top-0 left-0 opacity-0 hover:opacity-80 transition duration-500
+
+          <div className="image relative border-b border-gray-200 h-56 object-cover">
+            <img className="w-full border-bottom border-gray-200 h-full" src={`projects/${itm.img}`} alt="Mountain" />
+            <a className="overlay absolute bg-purple-500 z-50 w-full h-full top-0 left-0 opacity-0 hover:opacity-80 transition duration-500
             flex items-center justify-center" href={itm.url} rel="noreferrer" target="_blank">
               <div className="text-6xl">
                 <DiGithubBadge/>
               </div>
             </a>
           </div>
-          <div className="px-6 py-4">
+
+          <div className="px-6 py-4 flex-1">
             <div className="font-bold text-xl mb-2">{itm.name}</div>
-            <p className="text-pink-100 text-base indent-sm text-justify">{itm.desc}</p>
+            <p className="text-pink-100 text-base indent-sm text-justify">
+              {itm.desc}
+            </p>
           </div>
+
           <div className="px-6 pt-4 pb-2">
             {itm.tags.map((itm, idx) => {
               return (
