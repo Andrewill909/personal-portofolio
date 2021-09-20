@@ -8,7 +8,8 @@ const Particle = () => {
         position: "fixed",
         top: 0,
         left: 0,
-        zIndex: -999
+        zIndex: -999,
+        height: '100vh'
       }
 
     return (

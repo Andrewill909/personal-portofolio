@@ -1,5 +1,5 @@
 body{
-  background-color: #21D4FD;
+  background-color: #250463;
   background-image: linear-gradient(19deg, #21D4FD 0%,#B721FF 100%);
   background-attachment: fixed;
   background-size: cover;
@@ -15,12 +15,7 @@ body{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 15px;
-  background: #1ddbfd;
+  background: #FEE715FF;
 
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #fd1ddf;
-
-}

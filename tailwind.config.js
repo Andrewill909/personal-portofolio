@@ -15,15 +15,6 @@ module.exports = {
       textColor: {
         'cust-cyan':'#66FCF1',
         'cust-peach': '#FF616D',
-        'HTML':'#F16529',
-        'CSS': '#5f7ae3',
-        'Javascript': '#F0DB4F',
-        'React': '#61DBFB',
-        'Node': '#92db91',
-        'Git': '#F1502F',
-        'Java': '#f7b159',
-        'MongoDB': '#5f9c5a',
-        'MySQL': '#83d2e6'
       },
       gradientColorStops: theme => ({
         ...theme('colors'),
